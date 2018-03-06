@@ -9,7 +9,6 @@ end
 @teams = []
 
 def menu
-	# We are on the clean_up branch
 	puts "Welcome to My Tournament Generator. Enter a selection:"
 
 	menu_choices = ["Enter teams", "List teams", "List matchups", "Exit program"]
