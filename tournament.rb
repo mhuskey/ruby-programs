@@ -9,12 +9,8 @@ end
 @teams = []
 
 def menu
+	# We are on the clean_up branch
 	puts "Welcome to My Tournament Generator. Enter a selection:"
-
-	# puts "1. Enter teams"
-	# puts "2. List teams"
-	# puts "3. List matchups"
-	# puts "0. Exit program"
 
 	menu_choices = ["Enter teams", "List teams", "List matchups", "Exit program"]
 	length = menu_choices.length
